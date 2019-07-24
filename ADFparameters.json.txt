@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "dataFactoryName": {
+      "value": "datafactlybrynith01"
+    },
+    "dataFactoryLocation": {
+      "value": "East US"
+    },
+    "storageAccountName": {
+      "value": "storacctlybrynith01"
+    },
+    "storageAccountKey": {
+      "value": "CYiRaWMwn+wxhQPgCfYhne8274IbScvyyd2WxxZxv4eallAvb/eG9NbUVlA7ISF7IuC1uEKMx31UuoZvTgwOiw=="
+    },
+    "blobContainer": {
+      "value": "lybrynithblob"
+    },
+    "inputBlobFolder": {
+      "value": "input"
+    },
+    "inputBlobName": {
+      "value": "sampel.txt"
+    },
+    "outputBlobFolder": {
+      "value": "output"
+    },
+    "outputBlobName": {
+      "value": "sampleoutput.txt"
+    },
+    "triggerStartTime": {
+        "value": "2019-07-18T00:00:00. Set to today"
+    },
+    "triggerEndTime": {
+        "value": "2019-07-19T00:00:00. Set to tomorrow"
+    }
+  }
+}
